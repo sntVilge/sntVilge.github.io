@@ -1,13 +1,50 @@
-h1 {
-	color: #c72052;
-	font-size: 80px;
-	background-color: yellow;
+table {
+	text-align: center;
+	font-size: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	border : 1px solid #9eb8ed;
+	border-collapse: collapse;
 }
 
-p {
-	color: purple;
+td {
+	border : 1px solid #9eb8ed;
+	padding: 15px;
+}
+
+.center {
+	
+}
+
+body {
+	text-align: center;
+	background-color:  #9eedd3 ;
+	display: flex;
+	justify-content: space-around;
+}
+
+main {
+	max-width: 600px;
+}
+
+h1 {
+	color: #ed9eb8;
+}
+
+td {
+	color: #edd39e ;
+	text-shadow: #53dfb0 2px 5px;
 }
 
 a {
-	color: green;
+	color:inherit;
+  	text-decoration: none;
+}
+
+a:hover {
+	color: #ed9eb8;
+}
+
+a:visited {
+	color: #6891e3;
 }

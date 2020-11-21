@@ -1,0 +1,15 @@
+ul {
+	list-style: none;
+	text-align: left;
+}
+
+li::before {
+	content: "•"; 
+	color: #6891e3;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+a {
+	color: #ed9eb8;
+}
